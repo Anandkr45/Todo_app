@@ -2,6 +2,7 @@ from Function import get_todo, write_todo
 import time
 
 now = time.strftime("%b %d, %Y %H:%M:%S")
+print("Current time: ")
 print(now)
 while True:  # condition as it'll be true so it'll be executing
     action = input("Add, show edit or exit: ")  # take input()
