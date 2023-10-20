@@ -7,4 +7,5 @@ add_btn = sg.Button("Add")
 
 window = sg.Window('ToDo_App', layout=[[label], [input_box, add_btn]])
 window.read()
+print("Hello")
 window.close()
